@@ -1,0 +1,43 @@
+body{
+    padding: 0;
+    background-color: antiquewhite;
+    margin: 0;
+    
+}
+div.navbar{
+
+    text-align: left;
+    font-size: 22px;
+    background-color:black ;
+    padding: 15px;
+
+    
+}
+
+.navbar a{
+    padding-right: 2%;
+    text-decoration: none;
+    color: white;
+    
+    
+}
+.navbar a :hover{
+    color: wheat;
+}
+.navbar_R{
+    text-align: right;
+
+}
+
+div.Home{
+    padding-left: 15px;
+    font-size: 30px;
+    display: flex;
+}
+p{
+    font-size: 22px;
+}
+div.Image{
+    padding-top: 30px;
+}
+
