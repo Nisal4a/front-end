@@ -1,8 +1,12 @@
 body{
     padding: 0;
-    background-color: rgba(55, 118, 96, 0.437);
+    font-family: sans-serif ;
+    background-color: rgba(49, 104, 85, 0.437);
     margin: 0;
     
+}
+.wid{
+    font-size: 20px;
 }
 div.navbar{
 
@@ -25,16 +29,20 @@ div.navbar{
     color: wheat;
 }
 
-div.Home{
+.Home{
     padding-left: 15px;
     font-size: 30px;
     display: flex;
+    height: 50vh;
+    width: 90vw;
 }
 p{
     font-size: 22px;
 }
-div.Image{
-    padding-top: 30px;
+.Image{
+    position: relative;
+    top: 50px;
+    border-radius:50% ;
 }
 
 .Contact_Me{
@@ -50,6 +58,7 @@ button{
     border-radius: 100px;
     background-color: aqua;
 }.contact{
+    background-color: rgba(55, 118, 96, 0.437);
     input[type=text] {
         width: 200px;
         padding: 15px 30px;
@@ -91,6 +100,43 @@ footer {
     
     text-decoration: none;
 }
+.a:hover{
+    color: wheat;
+}
+.ab:hover{
+    color: wheat;
+}
+.layout{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.project{
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+    width: 100%;
+}
+.card{
+    /* position: relative; */
+
+    width: 280px;
+    align-items: center;    
+    justify-content: center;
+    background-color: whitesmoke;
 
 
+}.font{
+    font-size: 15px;
+    display: flex;
+    float: left;
+    color: #2c3e50;
+}
+h3{
+    color: rgb(43, 39, 39);
+    margin-bottom: 0px;
+}
 
