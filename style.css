@@ -1,12 +1,18 @@
+*{
+    
+    font-family: sans-serif ;
+}
 body{
     padding: 0;
-    font-family: sans-serif ;
     background-color: rgba(49, 104, 85, 0.437);
     margin: 0;
     
 }
 .wid{
     font-size: 20px;
+}
+.info{
+        text-align: center;
 }
 div.navbar{
 
@@ -49,7 +55,7 @@ p{
     font-size: 50px;
     text-align: center;
 }
-button{
+.but{
     width: 200px;
     padding: 19px 50px;
     margin: auto;
@@ -138,5 +144,30 @@ footer {
 h3{
     color: rgb(43, 39, 39);
     margin-bottom: 0px;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul{
+    display: flex;
+    text-decoration: none;
+}
+.navbar ul li{
+    margin-right: 25px;
+}
+/* .navbar li a:hover{
+    color: aqua;
+} */
+
+.navbar li a::after{
+    content: '';
+    display: block;
+    width: 0;
+    transition: width 0.3s ;
+    background-color: aqua;
+    height: 2px;
+}
+.navbar li a:hover::after{
+    width: 100%;
 }
 
