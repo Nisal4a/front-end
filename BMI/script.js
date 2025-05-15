@@ -1,8 +1,8 @@
 document.getElementById("bmi-form").addEventListener("submit",function(e){
-    e.preventDefult();
+    e.preventDefault();
 const height = document.getElementById("height").value;
 const weight = document.getElementById("weight").value;
-const result = document.getElementById("result").value;
+const result = document.getElementById("result");
 if (!height || !weight || height <=0 || weight <=0 ){
     result.textContent ="Please enter valid height and weight!";
     return;
